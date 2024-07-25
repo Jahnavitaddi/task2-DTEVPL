@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.card h2, .card h3, .card h4 {
+    text-align: center;
+}
+
+.card p, .task p {
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.asset {
+    margin-top: 10px;
+}
+
+.asset h4 {
+    margin-bottom: 5px;
+}
+
+.asset p {
+    margin-bottom: 5px;
+}
+
+.asset iframe {
+    width: 100%;
+    height: 315px;
+}
+
+.asset a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #0066cc;
+    text-decoration: none;
+}
+
